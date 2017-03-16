@@ -1,11 +1,17 @@
 {
-  "name": "pre-commit",
+  "name": "precommit",
   "version": "1.0.0",
   "description": "Test",
   "main": "index.js",
   "scripts": {
+    "lint-staged": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*.js": "eslint",
+    "*.css": "stylelint"
+  },
+  "pre-commit": "lint-staged",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexeyKorkoza/Precommit.git"
@@ -19,5 +25,14 @@
   "bugs": {
     "url": "https://github.com/AlexeyKorkoza/Precommit/issues"
   },
-  "homepage": "https://github.com/AlexeyKorkoza/Precommit#readme"
+  "homepage": "https://github.com/AlexeyKorkoza/Precommit#readme",
+  "devDependencies": {
+    "lint-staged": "^3.4.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "eslint": "^3.17.1",
+    "jquery": "^3.1.1",
+    "stylelint": "^7.9.0"
+  }
 }
