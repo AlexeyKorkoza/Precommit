@@ -21,7 +21,7 @@
 }
 
 #header .container {
-  padding: 28px 0 0 0;
+  padding: 28px 0 0;
 }
 
 .logo {
@@ -93,4 +93,3 @@
 .c-hamburger span::after {
   bottom: -20px;
 }
-
