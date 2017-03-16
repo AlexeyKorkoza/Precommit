@@ -1,0 +1,23 @@
+{
+  "name": "pre-commit",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyKorkoza/Precommit.git"
+  },
+  "keywords": [
+    "Test",
+    "precommit"
+  ],
+  "author": "Alexey Korkoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexeyKorkoza/Precommit/issues"
+  },
+  "homepage": "https://github.com/AlexeyKorkoza/Precommit#readme"
+}
